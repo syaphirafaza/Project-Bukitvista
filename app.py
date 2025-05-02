@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Load data
 @st.cache_data
 def load_data():
-    return pd.read_csv("/content/data_rentals_bukitvista.csv")
+    return pd.read_csv("data_rentals_bukitvista.csv")
 
 df = load_data()
 
